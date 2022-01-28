@@ -1,16 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class MainMenu : MonoBehaviour
 {
-    void Start()
-    {
-        
+    public void PlayGame(){
+        //FindObjectOfType<AudioManager>().StopAllSounds();
+        SceneManager.LoadScene("Start",LoadSceneMode.Single);
     }
 
-    void Update()
-    {
-        
+    public void QuitGame(){
+        Debug.Log("Quit!");
+        Application.Quit();
     }
 }
