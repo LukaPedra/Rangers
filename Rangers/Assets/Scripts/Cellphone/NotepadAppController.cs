@@ -8,7 +8,7 @@ public class NotepadAppController : MonoBehaviour
 	[SerializeField] private GameObject notesPanel;
 
 	private void OnEnable() {
-
+		Debug.Log("aa");
 	}
 
 }
