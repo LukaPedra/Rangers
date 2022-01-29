@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CharacterNames Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: CharacterNames
-  m_TableCollectionNameGuidString: 00000000000000000000000000000000
+  m_TableCollectionNameGuidString: a5bfd5eae9a2c2a6186c17b65b681017
   m_Entries: []
   m_Metadata:
     m_Items: []

@@ -665,8 +665,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Exit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a1a586e7a44650c49aed612a2a8a8560, type: 2}
+  m_sharedMaterial: {fileID: 2109652894566604836, guid: a1a586e7a44650c49aed612a2a8a8560, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -914,8 +914,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Configura\xE7\xF5es"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a1a586e7a44650c49aed612a2a8a8560, type: 2}
+  m_sharedMaterial: {fileID: 2109652894566604836, guid: a1a586e7a44650c49aed612a2a8a8560, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1486,8 +1486,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Cr\xE9ditos"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a1a586e7a44650c49aed612a2a8a8560, type: 2}
+  m_sharedMaterial: {fileID: 2109652894566604836, guid: a1a586e7a44650c49aed612a2a8a8560, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1660,8 +1660,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Continuar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a1a586e7a44650c49aed612a2a8a8560, type: 2}
+  m_sharedMaterial: {fileID: 2109652894566604836, guid: a1a586e7a44650c49aed612a2a8a8560, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2052,42 +2052,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 796480688}
     m_Modifications:
-    - target: {fileID: 6028424900065626912, guid: 5fcf377b070256f48874e719c55193e4, type: 3}
-      propertyPath: m_text
-      value: Novo Jogo
-      objectReference: {fileID: 0}
-    - target: {fileID: 6028424900065626912, guid: 5fcf377b070256f48874e719c55193e4, type: 3}
-      propertyPath: m_margin.z
-      value: 142.72363
-      objectReference: {fileID: 0}
-    - target: {fileID: 6028424900065626912, guid: 5fcf377b070256f48874e719c55193e4, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6028424900165268960, guid: 5fcf377b070256f48874e719c55193e4, type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6028424900165268960, guid: 5fcf377b070256f48874e719c55193e4, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 8882919505860284763, guid: cabcf5eda8db5df48b6668d8fd0a06fb, type: 3}
-    - target: {fileID: 6028424900165268961, guid: 5fcf377b070256f48874e719c55193e4, type: 3}
-      propertyPath: m_Transition
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6028424900165268961, guid: 5fcf377b070256f48874e719c55193e4, type: 3}
-      propertyPath: m_SpriteState.m_PressedSprite
-      value: 
-      objectReference: {fileID: 5933910561280839586, guid: cabcf5eda8db5df48b6668d8fd0a06fb, type: 3}
-    - target: {fileID: 6028424900165268961, guid: 5fcf377b070256f48874e719c55193e4, type: 3}
-      propertyPath: m_SpriteState.m_SelectedSprite
-      value: 
-      objectReference: {fileID: 5933910561280839586, guid: cabcf5eda8db5df48b6668d8fd0a06fb, type: 3}
-    - target: {fileID: 6028424900165268961, guid: 5fcf377b070256f48874e719c55193e4, type: 3}
-      propertyPath: m_SpriteState.m_HighlightedSprite
-      value: 
-      objectReference: {fileID: -2371510371523999124, guid: 7ad82f8be16b771408fa66dcad5af024, type: 3}
     - target: {fileID: 6028424900165268961, guid: 5fcf377b070256f48874e719c55193e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
