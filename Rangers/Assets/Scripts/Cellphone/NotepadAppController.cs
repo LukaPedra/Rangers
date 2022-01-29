@@ -4,12 +4,6 @@ using UnityEngine;
 
 public class NotepadAppController : MonoBehaviour
 {
-	[SerializeField] private NoteController noteController;
 	[SerializeField] private GameObject notesPanel;
-
-	private void OnEnable() {
-		Debug.Log("aa");
-	}
-
 }
 
