@@ -3262,7 +3262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: a6f3d0aae0fc2994993a63ef68db8ca1, type: 3}
-  m_NotificationBehavior: 0
+  m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -3275,7 +3275,19 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents:
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 0599e54e-a580-4412-933f-a8c8da878555
     m_ActionName: Player/Move[/DualSenseGamepadHID/leftStick,/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
   - m_PersistentCalls:
@@ -3326,6 +3338,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: df7fc15b-1077-431c-a10d-6c0d8eb24ace
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 79582e83-8014-41c1-abd3-29e53f8572f4
+    m_ActionName: Player/MousePosition[/Mouse/position]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: Player
@@ -4135,6 +4151,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 443883bf7705d234b955bdb81c89abb9, type: 3}
     - target: {fileID: 6094413326380243770, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094413326380243770, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
@@ -4250,7 +4270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5911734202619694970, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.01
+      value: 0.084
       objectReference: {fileID: 0}
     - target: {fileID: 6094413326380243770, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_Size.x
@@ -6349,7 +6369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5634c44037bbcdabd062022de8753f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  personController: {fileID: 987644216}
+  contactPrefab: {fileID: 0}
 --- !u!1 &2031545222
 GameObject:
   m_ObjectHideFlags: 0
@@ -7283,10 +7303,6 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6122167424448360009, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 626d0a0fce3148c469fec3ba22f84edb, type: 2}
     - target: {fileID: 6974377180353734602, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_RootOrder
       value: 0
