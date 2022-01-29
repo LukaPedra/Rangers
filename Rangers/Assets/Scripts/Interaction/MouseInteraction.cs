@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class InteractionMenu : MonoBehaviour
+public class MouseInteraction : MonoBehaviour
 {
+    private GameObject NPC;
     private CursorControls controls;
     private void Awake(){
         controls = new CursorControls();
@@ -34,7 +35,11 @@ public class InteractionMenu : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(controls.Mouse.Position.ReadValue<Vector2>());
 
         RaycastHit2D hit2D = Physics2D.GetRayIntersection(ray);
-        if (hit2D.collider != null)
-            Debug.Log("Hit collider 2D"+hit2D.collider.tag);
+        if ((hit2D.collider != null) && (hit2D.collider.tag == "NPCAluno"))
+            NPC = hit2D.collider.gameObject;
+            NPC.GetComponent<InteractMenu>().OpenMenu();
+    }
+    public void buttontest(){
+        Debug.Log("teste");
     }
 }
