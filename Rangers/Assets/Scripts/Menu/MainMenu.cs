@@ -10,11 +10,13 @@ using UnityEngine.UI;
 public class MainMenu : MonoBehaviour
 {
     public void NewGame(){
+        //FindObjectOfType<AudioManager>().StopAllSounds();
+        SceneManager.LoadScene("Game",LoadSceneMode.Single);
 
     }
     public void ContinueGame(){
         //FindObjectOfType<AudioManager>().StopAllSounds();
-        SceneManager.LoadScene("Start",LoadSceneMode.Single);
+        SceneManager.LoadScene("Game",LoadSceneMode.Single);
     }
     public void Settings(){
 
