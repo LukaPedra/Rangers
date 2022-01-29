@@ -1,16 +1,19 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ContactsAppController : MonoBehaviour
 {
-	[SerializeField] private PersonController personController;
+	[SerializeField] private GameObject contactPrefab;
 
-	private void Start() {
+	private Hashtable contactsTable = new Hashtable();
 
+	public void AddContact(PersonSO person) {
+		GameObject contact = Instantiate(contactPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+		contact.GetComponent<ContactBehaviour>().ContactID = person.pid;
+		contactsTable.Add(person.pid, contact);
 	}
 
-	private void Update() {
+	public void RemoveContact(string pid) => contactsTable.Remove(name);
 
-	}
 }
+
