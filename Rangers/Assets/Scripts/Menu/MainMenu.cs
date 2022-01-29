@@ -20,16 +20,17 @@ public class MainMenu : MonoBehaviour
 
     }
     public void CreditsGame(){
-        
+
     }
     public void QuitGame(){
         Debug.Log("Quit!");
         Application.Quit();
     }
     public void SetLangPtBr(){
-        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[1];
-    }
-    public void SetLangEn(){
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[0];
     }
+    public void SetLangEn(){
+        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[1];
+    }
 }
+
