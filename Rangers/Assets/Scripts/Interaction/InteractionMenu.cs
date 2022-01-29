@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class InteractionMenu : MonoBehaviour
 {
     private CursorControls controls;
-    private void Awake() {
+    private void Awake(){
         controls = new CursorControls();
     }
     private void OnEnable(){
@@ -26,13 +26,10 @@ public class InteractionMenu : MonoBehaviour
         DetectObject();
     }
     private void Update() {
-        //Vector3 mousePos = Mouse.current.po
-        //mousePos.z = Camera.main.nearClipPlane;
         Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         worldPosition.z = Camera.main.nearClipPlane;
-        //transform.position = worldPosition;
-    }
 
+    }
     private void DetectObject(){
         Ray ray = Camera.main.ScreenPointToRay(controls.Mouse.Position.ReadValue<Vector2>());
 
@@ -40,8 +37,4 @@ public class InteractionMenu : MonoBehaviour
         if (hit2D.collider != null)
             Debug.Log("Hit collider 2D"+hit2D.collider.tag);
     }
-    public void test(){
-        Debug.Log("teste");
-    }
-    
 }
