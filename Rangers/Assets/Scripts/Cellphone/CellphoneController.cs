@@ -5,8 +5,9 @@ public class CellphoneController : MonoBehaviour
 	[SerializeField] private GameObject launcherScreen;
 	[SerializeField] private GameObject notepadScreen;
 	[SerializeField] private GameObject contactsScreen;
+	[SerializeField] private GameManager gameManager;
 
-	private enum CellphoneState {Off, Launcher, Notepad, Contacts};
+	private enum CellphoneState {Launcher, Notepad, Contacts};
 	private CellphoneState cellphoneState;
 
 	private void Start() {
@@ -19,12 +20,8 @@ public class CellphoneController : MonoBehaviour
 
 	public void GoBack() {
 		switch (cellphoneState) {
-			case CellphoneState.Off:
-				return;
 			case CellphoneState.Launcher:
-				return;
-				launcherScreen.SetActive(false);
-				cellphoneState = CellphoneState.Off;
+				gameManager.CloseCellphone();
 				break;
 
 			case CellphoneState.Notepad:
