@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2314716466179489992, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_Name
-      value: leo_pequeno
+      value: leo_pequeno Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: CharArt
@@ -30,6 +30,141 @@ PrefabInstance:
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: DialogueManager
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].name
+      value: Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].name
+      value: Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[0].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: ObserveDialogue.frases.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: ObserveDialogue.frases.Array.data[0]
+      value: "Leo\u2026 uma verdadeira p\xE9rola."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].frases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].frases.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].frases.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].frases.Array.data[0]
+      value: "Voc\xEA: \"Ouvi falar que voc\xEA tem coisa pra contar..\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].frases.Array.data[1]
+      value: 'Leo: "1, 2, 3 ,4 , 5 kkkk, zoas"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].frases.Array.data[0]
+      value: "Voc\xEA: \"Um passarinho me contou que t\xE1 rolando um interesse em
+        cabelo e uma poss\xEDvel revolu\xE7\xE3o dos calvos?!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].frases.Array.data[1]
+      value: "Voc\xEA: E a\xED, como \xE9 que \xE9 a hist\xF3ria?\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].frases.Array.data[2]
+      value: "Leo: \"H\xE3? T\xF4 muito ligado n\xE3o, minhe chapa, mas tenho reparado
+        uma movimenta\xE7\xE3o estranha com os professores calvos,"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].frases.Array.data[3]
+      value: 'Leo:  talvez valha a pena investigar, saca?"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].frases.Array.data[0]
+      value: "Protetor solar, bon\xE9, sunga.. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].frases.Array.data[1]
+      value: Espera, o cara trouxe mochila de praia pra escola?!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].frases.Array.data[2]
+      value: "(Voc\xEA n\xE3o achou nada de relevante nessa mochila.)\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[0].frases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[0]
+      value: "E a\xED\xED, mano, qual foi? Belezinha?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[1]
+      value: "(Quando ele se aproxima voc\xEA sente um cheiro peculiar.)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.data[0]
+      value: "P\xF4, mano, at\xE9 eu que sou meio lerdo sei que tem casalzinho se
+        formando,"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.data[1]
+      value: "t\xE1 precisando abrir o olho, minhe truta.."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[0].frases.Array.data[0]
+      value: "Vazio que nem a cabe\xE7a dele."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[0].frases.Array.data[1]
+      value: "(Voc\xEA n\xE3o achou nada de relevante nesse arm\xE1rio.)"
       objectReference: {fileID: 0}
     - target: {fileID: 6094413326380243770, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_Size.x
