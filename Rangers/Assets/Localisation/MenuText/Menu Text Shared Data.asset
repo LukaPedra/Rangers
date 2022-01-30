@@ -35,6 +35,18 @@ MonoBehaviour:
     m_Key: ExitKey
     m_Metadata:
       m_Items: []
+  - m_Id: 371222595067904
+    m_Key: ArtCreditsKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371290144333824
+    m_Key: SoundKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 382291698868224
+    m_Key: IdiomaKey
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

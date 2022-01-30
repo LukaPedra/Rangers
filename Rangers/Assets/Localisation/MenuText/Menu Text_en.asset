@@ -38,5 +38,17 @@ MonoBehaviour:
     m_Localized: Exit
     m_Metadata:
       m_Items: []
+  - m_Id: 371222595067904
+    m_Localized: Art
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371290144333824
+    m_Localized: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 382291698868224
+    m_Localized: 'Language '
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

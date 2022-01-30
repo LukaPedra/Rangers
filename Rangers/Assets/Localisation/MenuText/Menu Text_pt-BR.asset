@@ -38,5 +38,17 @@ MonoBehaviour:
     m_Localized: Sair
     m_Metadata:
       m_Items: []
+  - m_Id: 371222595067904
+    m_Localized: Arte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371290144333824
+    m_Localized: Som
+    m_Metadata:
+      m_Items: []
+  - m_Id: 382291698868224
+    m_Localized: Idioma
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
