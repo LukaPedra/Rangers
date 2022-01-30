@@ -64,8 +64,32 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].name
+      value: Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].name
+      value: Default
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.data[0].name
@@ -76,12 +100,89 @@ PrefabInstance:
       value: Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[0].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: ObserveDialogue.frases.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: ObserveDialogue.frases.Array.data[0]
+      value: Apenas Felipe sendo Felipe, nada fora do normal, apenas um nerdola sendo
+        esquisito..
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].frases.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].frases.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].frases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].frases.Array.data[0]
+      value: "\rVoc\xEA: \"Ouvi falar que voc\xEA tem coisa pra contar..\"\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].frases.Array.data[1]
+      value: "Felipe: \"Eu sou gamer, meu ouvido \xE9 afiado!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].frases.Array.data[2]
+      value: "Felipe: Voc\xEA tem que ser um pouco mais espec\xEDfico, cara!\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].frases.Array.data[0]
+      value: "\rVoc\xEA: \"Fontes seguras me disseram que um poss\xEDvel casal est\xE1
+        se formando entre n\xF3s,"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].frases.Array.data[1]
+      value: "\rVoc\xEA:  e algo me diz que voc\xEA sabe sobre isso.\"\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].frases.Array.data[2]
+      value: "Felipe: \"Qual \xE9, cara! Tive que pausar o jogo pra isso?!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].frases.Array.data[3]
+      value: "Felipe: Voc\xEA n\xE3o presta aten\xE7\xE3o em nada mesmo, porra!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].frases.Array.data[4]
+      value: "Felipe: Fica de olho na Philomena, ela t\xE1 meio estranha, foca nisso
+        e para de me encher o meu saco..\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].frases.Array.data[5]
+      value: "Felipe: Fica de olho na Philomena, ela t\xE1 meio estranha, foca nisso
+        e para de me encher o meu saco.."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].frases.Array.data[0]
+      value: "Ih\u2026 al\xE9m de trazer o QS e mang\xE1 para a escola ainda vem
+        com hentai?! Credo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].frases.Array.data[1]
+      value: "(Voc\xEA n\xE3o achou nada de relevante nessa mochila.)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.data[0].frases.Array.size
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.data[1].frases.Array.size
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[0].frases.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.data[0].frases.Array.data[0]
@@ -116,6 +217,14 @@ PrefabInstance:
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.data[1].frases.Array.data[3]
       value: "(Os dedos dele n\xE3o pararam de se mover em nenhum momento.)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[0].frases.Array.data[0]
+      value: "Tenho at\xE9 medo de ver o que tem aqui dentro.. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[0].frases.Array.data[1]
+      value: "(Voc\xEA n\xE3o achou nada de relevante nesse arm\xE1rio.)"
       objectReference: {fileID: 0}
     - target: {fileID: 5911734202619694970, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_LocalScale.x

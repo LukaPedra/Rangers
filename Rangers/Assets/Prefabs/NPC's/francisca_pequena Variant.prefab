@@ -16,8 +16,36 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[1].name
+      value: Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.data[0].name
@@ -28,12 +56,95 @@ PrefabInstance:
       value: Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[0].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[1].name
+      value: Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: ObserveDialogue.frases.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: ObserveDialogue.frases.Array.data[0]
+      value: Fazendo mais uma dancinha de PlikPlok, para variar..
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].frases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].frases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].frases.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[1].frases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].frases.Array.data[0]
+      value: "Voc\xEA: \"Ouvi falar que voc\xEA tem coisa pra contar..\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].frases.Array.data[1]
+      value: "Francisca: \"N\xE3o falo com pobre <3\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].frases.Array.data[0]
+      value: "Voc\xEA: \"Ouvi falar que voc\xEA tem coisa pra contar..\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[1].frases.Array.data[1]
+      value: "Francisca: \"N\xE3o falo com pobre <3\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].frases.Array.data[0]
+      value: "Eu acho que essa \xE9 a coisa mais rosa e felpuda que eu j\xE1 vi na
+        vida,"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].frases.Array.data[1]
+      value: "pena que n\xE3o d\xE1 para mexer agora, as seguidoras est\xE3o..  limpando
+        ela..?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].frases.Array.data[2]
+      value: "(Voc\xEA n\xE3o consegue mexer nessa mochila por hora, tente mais tarde.)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[1].frases.Array.data[0]
+      value: "Oh, isso aqui talvez seja \xFAtil."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[1].frases.Array.data[1]
+      value: "(Voc\xEA achou um caderno bem pomposo e colorido, o problema \xE9 que
+        ele est\xE1 trancado\u2026 talvez seja um di\xE1rio?!)\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[1].frases.Array.data[2]
+      value: "(Voc\xEA n\xE3o consegue mexer nessa mochila por hora, tente mais tarde.)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.data[0].frases.Array.size
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.data[1].frases.Array.size
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[0].frases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[1].frases.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.data[0].frases.Array.data[0]
@@ -58,6 +169,25 @@ PrefabInstance:
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.data[1].frases.Array.data[2]
       value: (Ela se vira para mexer em sua bela, e nada cara, bolsa da Zucci..)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[0].frases.Array.data[0]
+      value: "Parece que esse arm\xE1rio cheio de adesivos de unic\xF3rnio e glitter
+        est\xE1 trancado.."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[0].frases.Array.data[1]
+      value: "(Voc\xEA n\xE3o consegue mexer nesse arm\xE1rio por hora, tente mais
+        tarde.)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[1].frases.Array.data[0]
+      value: "Tem mais acess\xF3rios aqui que no meu closet! N\xE3o sei se vai ter
+        algo de \xFAtil.."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[1].frases.Array.data[1]
+      value: "O que \xE9 isso? Uma chave?"
       objectReference: {fileID: 0}
     - target: {fileID: 5716939710917388738, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_Camera
