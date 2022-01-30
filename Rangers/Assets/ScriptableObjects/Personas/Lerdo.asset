@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cadbc43298bc53d8891ec3df96dce23, type: 3}
   m_Name: Lerdo
   m_EditorClassIdentifier: 
-  pid: Lerdo
+  pid: lerdo
   pname: Leo
   age: 16
   description: "Est\xE1 dormindo a maior parte do tempo e pintou olhos falsos nas
