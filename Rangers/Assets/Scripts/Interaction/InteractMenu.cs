@@ -25,6 +25,9 @@ public class InteractMenu : MonoBehaviour
     private void Awake(){
         controls = new CursorControls();
         dialogue = dialogues[0];
+        note = Notes[0];
+        Snoop = Snoops[0];
+        SnoopLocker = SnoopsLocker[0];
     }
     public void OpenMenu(){
         if(gameManager.OpenMenu() == false){
@@ -40,19 +43,19 @@ public class InteractMenu : MonoBehaviour
         return NomeNPC;
     }
     public void triggerDialogue(){
-        DialogueManager.StartDialogue(dialogue,gameObject);
+        DialogueManager.StartDialogue(dialogue,gameObject,false);
         CloseMenu();
     }
     public void Observe(){
-
+        DialogueManager.StartDialogue(ObserveDialogue,gameObject, true);
         CloseMenu();
     }
     public void SnoopBag(){
-
+        DialogueManager.StartDialogue(Snoop,gameObject, true);
         CloseMenu();
     }
     public void PassNote(){
-
+        DialogueManager.StartDialogue(note, gameObject, false);
         CloseMenu();
     }
     public Sprite GetCharArt(){
