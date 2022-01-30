@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class MouseInteraction : MonoBehaviour
 {
     private GameObject NPC;
+    private GameObject NPCCopy;
     public GameManager gameManager;
     private CursorControls controls;
     private void Awake(){
@@ -38,8 +39,13 @@ public class MouseInteraction : MonoBehaviour
         RaycastHit2D hit2D = Physics2D.GetRayIntersection(ray);
         if ((hit2D.collider != null) && (hit2D.collider.tag == "NPCAluno")){
             NPC = hit2D.collider.gameObject;
+            NPCCopy = NPC;
             NPC.GetComponent<InteractMenu>().OpenMenu();
             NPC = null;
+        }
+        else{
+            NPCCopy.GetComponent<InteractMenu>().CloseMenu();
+            NPCCopy = null;
         }
     }
     public void buttontest(){
