@@ -174,7 +174,7 @@ PrefabInstance:
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: SnoopsLocker.Array.data[1].frases.Array.data[1]
       value: "O que \xE9 isso? \u201CVamos tentar ser mais discretas, n\xE3o quero
-        que ningu\xE9m suspeite de nada, por hora \u2620\".. \n"
+        que ningu\xE9m suspeite de nada, por hora *emoji de caveira*\".. \n"
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: SnoopsLocker.Array.data[1].frases.Array.data[2]
