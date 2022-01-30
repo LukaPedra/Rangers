@@ -22,7 +22,7 @@ public class MainMenu : MonoBehaviour
 
     }
     public void CreditsGame(){
-
+        
     }
     public void QuitGame(){
         Debug.Log("Quit!");

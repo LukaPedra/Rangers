@@ -6,9 +6,11 @@ public class GameManager : MonoBehaviour
 	[SerializeField] GameObject InteractionMenu;
 
 	private bool isMenuOpen;
+	private bool isCellOpen;
 
 	private void Start() {
-		cellphonePanel.SetActive(false);
+		isCellOpen = false;
+		cellphonePanel.SetActive(isCellOpen);
 		isMenuOpen = false;
 		GameStateManager.Instance.SetState(GameState.Class);
 	}
@@ -16,16 +18,17 @@ public class GameManager : MonoBehaviour
 	public void OpenCellphone() {
 		if (!SchoolClasses.DoesAllowPhone(SchoolClassManager.Instance.CurrentClass))
 			return;
-
+		isCellOpen = true;
 		isMenuOpen = true;//Somente para desabilitar o menu de abrir
 		GameStateManager.Instance.SetState(GameState.Phone);
-		cellphonePanel.SetActive(true);
+		cellphonePanel.SetActive(isCellOpen);
 	}
 
 	public void CloseCellphone() {
+		isCellOpen = false;
 		isMenuOpen = false; //Somente para desabilitar o menu de abrir
 		GameStateManager.Instance.SetState(GameState.Class);
-		cellphonePanel.SetActive(false);
+		cellphonePanel.SetActive(isCellOpen);
 	}
 
 	public bool GetMenuStatus(){
@@ -33,7 +36,10 @@ public class GameManager : MonoBehaviour
 	}
 
 	public bool OpenMenu(){
-        isMenuOpen = true;
+		if(isCellOpen == true){
+			return true;
+		}
+        isMenuOpen = false;
 		return isMenuOpen;
     }
 

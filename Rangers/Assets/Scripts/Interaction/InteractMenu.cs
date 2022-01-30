@@ -13,7 +13,7 @@ public class InteractMenu : MonoBehaviour
         controls = new CursorControls();
     }
     public void OpenMenu(){
-        if(gameManager.GetMenuStatus() == false){
+        if(gameManager.OpenMenu() == false){
             gameManager.SetMenuBool(true);
             animator.SetBool("MenuOn",gameManager.GetMenuStatus());
         }
