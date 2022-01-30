@@ -413,13 +413,17 @@ Transform:
   m_LocalPosition: {x: -2.9115782, y: -0.6553221, z: -57.55815}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2125732505}
   - {fileID: 5120051573359723388}
   - {fileID: 1542327453}
   - {fileID: 1287856644}
   - {fileID: 1284389778}
   - {fileID: 1942754682}
   - {fileID: 982166675}
+  - {fileID: 2125732505}
+  - {fileID: 1019116842}
+  - {fileID: 1560475907}
+  - {fileID: 1191987834}
+  - {fileID: 873988262}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -948,6 +952,122 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8151089488222888376, guid: 265ef7bbeb94d444c9eb4aa7e3c0cf3b, type: 3}
   m_PrefabInstance: {fileID: 1178929494}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &873988261
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 296640690}
+    m_Modifications:
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 115.1163
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 987644219}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: timeManager
+      value: 
+      objectReference: {fileID: 987644216}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: DialogueManager
+      value: 
+      objectReference: {fileID: 1623598827}
+    - target: {fileID: 8594909562849136951, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_Name
+      value: prof_mat_pequeno (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+--- !u!4 &873988262 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+  m_PrefabInstance: {fileID: 873988261}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &873988263 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8594909562849136951, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+  m_PrefabInstance: {fileID: 873988261}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &873988264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873988263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b676a4b780618f4785573240635c483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeManager: {fileID: 0}
+  NomeNPC: Mirian
+  CharArt: {fileID: 21300000, guid: 8f0f8e4deb6a72f4fb5984452a636170, type: 3}
+  dialogues:
+  - name: Default
+    frases:
+    - "Bom dia! Como est\xE1 o dia de voc\xEAs?"
+    - "Preparados para terem uma boa aula de matem\xE1tica?!"
+    - "(Os olhos da professora brilham de emo\xE7\xE3o.)"
+  - name: Variant
+    frases:
+    - "Ent\xE3o quer dizer que a Barbara te deu aval para sair por a\xED conversando
+      no meio da aula?"
+    - "Depois voc\xEA ter\xE1 que fazer monitoria como outros e n\xE3o sabe porqu\xEA."
+    - Agora foque na aula, por favor!
+  Notes: []
+  Snoops: []
+  SnoopsLocker: []
+  ObserveDialogue:
+    name: 
+    frases: []
+  DialogueManager: {fileID: 0}
+  animator: {fileID: 247391322876984161, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+  gameManager: {fileID: 0}
+  cameraMenu: {fileID: 0}
 --- !u!4 &874172368 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4814895372487637549, guid: 8ee35febd8e0446468a62caac97c59a8, type: 3}
@@ -989,7 +1109,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: e79cc77c3c530ea4ea50d53919e06e26, type: 3}
     - target: {fileID: 3193225093191457854, guid: ffabeddf8f722a0459680b4df005c05e, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3193225093191457854, guid: ffabeddf8f722a0459680b4df005c05e, type: 3}
       propertyPath: m_LocalScale.x
@@ -1221,6 +1341,150 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!1001 &1019116841
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 296640690}
+    m_Modifications:
+    - target: {fileID: 273437857578109637, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 93ad1c8061e7a304fb105c0f11283dc3, type: 3}
+    - target: {fileID: 383496489981697669, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2664294
+      objectReference: {fileID: 0}
+    - target: {fileID: 383496489981697669, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2664294
+      objectReference: {fileID: 0}
+    - target: {fileID: 383496489981697669, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2664294
+      objectReference: {fileID: 0}
+    - target: {fileID: 383496489981697669, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 383496489981697669, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 115.1163
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: NomeNPC
+      value: Arthur
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 987644219}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: timeManager
+      value: 
+      objectReference: {fileID: 987644216}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: DialogueManager
+      value: 
+      objectReference: {fileID: 1623598827}
+    - target: {fileID: 8594909562849136951, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_Name
+      value: prof_qui_pequeno
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+--- !u!4 &1019116842 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+  m_PrefabInstance: {fileID: 1019116841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1019116843 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8594909562849136951, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+  m_PrefabInstance: {fileID: 1019116841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1019116844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019116843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b676a4b780618f4785573240635c483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeManager: {fileID: 0}
+  NomeNPC: Mirian
+  CharArt: {fileID: 21300000, guid: 8f0f8e4deb6a72f4fb5984452a636170, type: 3}
+  dialogues:
+  - name: Default
+    frases:
+    - "Bom dia! Como est\xE1 o dia de voc\xEAs?"
+    - "Preparados para terem uma boa aula de matem\xE1tica?!"
+    - "(Os olhos da professora brilham de emo\xE7\xE3o.)"
+  - name: Variant
+    frases:
+    - "Ent\xE3o quer dizer que a Barbara te deu aval para sair por a\xED conversando
+      no meio da aula?"
+    - "Depois voc\xEA ter\xE1 que fazer monitoria como outros e n\xE3o sabe porqu\xEA."
+    - Agora foque na aula, por favor!
+  Notes: []
+  Snoops: []
+  SnoopsLocker: []
+  ObserveDialogue:
+    name: 
+    frases: []
+  DialogueManager: {fileID: 0}
+  animator: {fileID: 247391322876984161, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+  gameManager: {fileID: 0}
+  cameraMenu: {fileID: 0}
 --- !u!1001 &1019315896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1735,6 +1999,122 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1191987833
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 296640690}
+    m_Modifications:
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 115.1163
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 987644219}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: timeManager
+      value: 
+      objectReference: {fileID: 987644216}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: DialogueManager
+      value: 
+      objectReference: {fileID: 1623598827}
+    - target: {fileID: 8594909562849136951, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_Name
+      value: prof_mat_pequeno (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+--- !u!4 &1191987834 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+  m_PrefabInstance: {fileID: 1191987833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1191987835 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8594909562849136951, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+  m_PrefabInstance: {fileID: 1191987833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1191987836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191987835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b676a4b780618f4785573240635c483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeManager: {fileID: 0}
+  NomeNPC: Mirian
+  CharArt: {fileID: 21300000, guid: 8f0f8e4deb6a72f4fb5984452a636170, type: 3}
+  dialogues:
+  - name: Default
+    frases:
+    - "Bom dia! Como est\xE1 o dia de voc\xEAs?"
+    - "Preparados para terem uma boa aula de matem\xE1tica?!"
+    - "(Os olhos da professora brilham de emo\xE7\xE3o.)"
+  - name: Variant
+    frases:
+    - "Ent\xE3o quer dizer que a Barbara te deu aval para sair por a\xED conversando
+      no meio da aula?"
+    - "Depois voc\xEA ter\xE1 que fazer monitoria como outros e n\xE3o sabe porqu\xEA."
+    - Agora foque na aula, por favor!
+  Notes: []
+  Snoops: []
+  SnoopsLocker: []
+  ObserveDialogue:
+    name: 
+    frases: []
+  DialogueManager: {fileID: 0}
+  animator: {fileID: 247391322876984161, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+  gameManager: {fileID: 0}
+  cameraMenu: {fileID: 0}
 --- !u!1 &1227318648
 GameObject:
   m_ObjectHideFlags: 0
@@ -2054,6 +2434,122 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8456569453524532185, guid: e43370809c9c04a438bf2551f64a3952, type: 3}
   m_PrefabInstance: {fileID: 1554359845577199759}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1560475906
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 296640690}
+    m_Modifications:
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 115.1163
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 987644219}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: timeManager
+      value: 
+      objectReference: {fileID: 987644216}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: DialogueManager
+      value: 
+      objectReference: {fileID: 1623598827}
+    - target: {fileID: 8594909562849136951, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: m_Name
+      value: prof_mat_pequeno (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+--- !u!4 &1560475907 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+  m_PrefabInstance: {fileID: 1560475906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1560475908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8594909562849136951, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+  m_PrefabInstance: {fileID: 1560475906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1560475909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560475908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b676a4b780618f4785573240635c483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeManager: {fileID: 0}
+  NomeNPC: Mirian
+  CharArt: {fileID: 21300000, guid: 8f0f8e4deb6a72f4fb5984452a636170, type: 3}
+  dialogues:
+  - name: Default
+    frases:
+    - "Bom dia! Como est\xE1 o dia de voc\xEAs?"
+    - "Preparados para terem uma boa aula de matem\xE1tica?!"
+    - "(Os olhos da professora brilham de emo\xE7\xE3o.)"
+  - name: Variant
+    frases:
+    - "Ent\xE3o quer dizer que a Barbara te deu aval para sair por a\xED conversando
+      no meio da aula?"
+    - "Depois voc\xEA ter\xE1 que fazer monitoria como outros e n\xE3o sabe porqu\xEA."
+    - Agora foque na aula, por favor!
+  Notes: []
+  Snoops: []
+  SnoopsLocker: []
+  ObserveDialogue:
+    name: 
+    frases: []
+  DialogueManager: {fileID: 0}
+  animator: {fileID: 247391322876984161, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+  gameManager: {fileID: 0}
+  cameraMenu: {fileID: 0}
 --- !u!1 &1585331214
 GameObject:
   m_ObjectHideFlags: 0
@@ -3176,6 +3672,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 987644219}
     - target: {fileID: 2832487640601420739, guid: e43370809c9c04a438bf2551f64a3952, type: 3}
+      propertyPath: timeManager
+      value: 
+      objectReference: {fileID: 987644216}
+    - target: {fileID: 2832487640601420739, guid: e43370809c9c04a438bf2551f64a3952, type: 3}
       propertyPath: DialogueManager
       value: 
       objectReference: {fileID: 1623598827}
@@ -3185,7 +3685,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8456569453524532185, guid: e43370809c9c04a438bf2551f64a3952, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8456569453524532185, guid: e43370809c9c04a438bf2551f64a3952, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3374,7 +3874,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 93ad1c8061e7a304fb105c0f11283dc3, type: 3}
     - target: {fileID: 3193225093191457854, guid: ffabeddf8f722a0459680b4df005c05e, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3193225093191457854, guid: ffabeddf8f722a0459680b4df005c05e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3433,9 +3933,13 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 987644219}
+    - target: {fileID: 2102052180236712238, guid: ebed1fc21bc155f4a8ad89c04ea28140, type: 3}
+      propertyPath: timeManager
+      value: 
+      objectReference: {fileID: 987644216}
     - target: {fileID: 5710349709757702452, guid: ebed1fc21bc155f4a8ad89c04ea28140, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5710349709757702452, guid: ebed1fc21bc155f4a8ad89c04ea28140, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3504,6 +4008,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 987644219}
     - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
+      propertyPath: timeManager
+      value: 
+      objectReference: {fileID: 987644216}
+    - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
       propertyPath: DialogueManager
       value: 
       objectReference: {fileID: 1623598827}
@@ -3525,7 +4033,7 @@ PrefabInstance:
       objectReference: {fileID: 1181415052}
     - target: {fileID: 8220410613349243748, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8220410613349243748, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3578,15 +4086,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.7284217
+      value: -10.33
       objectReference: {fileID: 0}
     - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5753222
+      value: 1.52
       objectReference: {fileID: 0}
     - target: {fileID: 4004036514538878517, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3625,43 +4133,61 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 987644219}
     - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: timeManager
+      value: 
+      objectReference: {fileID: 987644216}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
       propertyPath: DialogueManager
       value: 
       objectReference: {fileID: 1623598827}
-    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
-      propertyPath: Notes.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
-      propertyPath: dialogues.Array.data[0].name
-      value: Default
-      objectReference: {fileID: 0}
-    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
-      propertyPath: ObserveDialogue.frases.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
-      propertyPath: dialogues.Array.data[0].frases.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
-      propertyPath: dialogues.Array.data[0].frases.Array.data[0]
-      value: "H\xE3?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
-      propertyPath: dialogues.Array.data[0].frases.Array.data[1]
-      value: "Ai, me poupe, n\xE3o tenho tempo pra falar com voc\xEA, plebe!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
-      propertyPath: dialogues.Array.data[0].frases.Array.data[2]
-      value: (Ela se vira para mexer em sua bela, e nada cara, bolsa da Zucci..)
-      objectReference: {fileID: 0}
     - target: {fileID: 8594909562849136951, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
       propertyPath: m_Name
-      value: mirian_pequena
+      value: prof_mat_pequeno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+--- !u!1 &6293999184371229198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8594909562849136951, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+  m_PrefabInstance: {fileID: 6293999184371229197}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6293999184371229199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6293999184371229198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b676a4b780618f4785573240635c483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeManager: {fileID: 0}
+  NomeNPC: Mirian
+  CharArt: {fileID: 21300000, guid: 8f0f8e4deb6a72f4fb5984452a636170, type: 3}
+  dialogues:
+  - name: Default
+    frases:
+    - "Bom dia! Como est\xE1 o dia de voc\xEAs?"
+    - "Preparados para terem uma boa aula de matem\xE1tica?!"
+    - "(Os olhos da professora brilham de emo\xE7\xE3o.)"
+  - name: Variant
+    frases:
+    - "Ent\xE3o quer dizer que a Barbara te deu aval para sair por a\xED conversando
+      no meio da aula?"
+    - "Depois voc\xEA ter\xE1 que fazer monitoria como outros e n\xE3o sabe porqu\xEA."
+    - Agora foque na aula, por favor!
+  Notes: []
+  Snoops: []
+  SnoopsLocker: []
+  ObserveDialogue:
+    name: 
+    frases: []
+  DialogueManager: {fileID: 0}
+  animator: {fileID: 247391322876984161, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+  gameManager: {fileID: 0}
+  cameraMenu: {fileID: 0}
 --- !u!1001 &8204328275630626112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3671,7 +4197,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1230140268938268809, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1230140268938268809, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3717,6 +4243,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 987644219}
+    - target: {fileID: 4829714307731998867, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
+      propertyPath: timeManager
+      value: 
+      objectReference: {fileID: 987644216}
     - target: {fileID: 4829714307731998867, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
       propertyPath: DialogueManager
       value: 
