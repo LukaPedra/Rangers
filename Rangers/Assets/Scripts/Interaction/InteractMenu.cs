@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class InteractMenu : MonoBehaviour
 {
+    [SerializeField] private TimeManager timeManager;
     public string NomeNPC;
     public Sprite CharArt;
     private CursorControls controls;
@@ -47,11 +48,11 @@ public class InteractMenu : MonoBehaviour
         CloseMenu();
     }
     public void Observe(){
-        DialogueManager.StartDialogue(ObserveDialogue,gameObject, true);
+        DialogueManager.StartDialogue(ObserveDialogue,gameObject, true, "Observar");
         CloseMenu();
     }
     public void SnoopBag(){
-        DialogueManager.StartDialogue(Snoop,gameObject, true);
+        DialogueManager.StartDialogue(Snoop,gameObject, true, "Bisbilhotar");
         CloseMenu();
     }
     public void PassNote(){
@@ -60,6 +61,11 @@ public class InteractMenu : MonoBehaviour
     }
     public Sprite GetCharArt(){
         return CharArt;
+    }
+    public void Sleep(){
+        Debug.Log("cima");
+        timeManager.Sleep();
+        
     }
     public void ChangeDialogue(int n){
         dialogue = dialogues[n];

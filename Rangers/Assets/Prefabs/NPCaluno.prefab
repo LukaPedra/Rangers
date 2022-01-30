@@ -79,7 +79,10 @@ MonoBehaviour:
   - name: 
     frases:
     - Plebe
-  dialogue:
+  Notes: []
+  Snoops: []
+  SnoopsLocker: []
+  ObserveDialogue:
     name: 
     frases: []
   DialogueManager: {fileID: 0}
@@ -356,7 +359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8237417263418277853, guid: 4d6eb9c9c723e0c409313bb55ff25969, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Snoop
+      value: SnoopBag
       objectReference: {fileID: 0}
     - target: {fileID: 8237417263418277853, guid: 4d6eb9c9c723e0c409313bb55ff25969, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName

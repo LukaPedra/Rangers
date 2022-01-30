@@ -13,6 +13,7 @@ public class ClockController : MonoBehaviour
 	}
 
 	private void Update() {
+		//Debug.Log(timeManager.IngameTime);
 		clockText.text = String.Format("{0:00}:{1:00}", timeManager.IngameHour, timeManager.IngameMins);
 	}
 }

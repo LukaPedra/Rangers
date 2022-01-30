@@ -16,11 +16,16 @@ public class DialogueManager : MonoBehaviour
     void Start() {
         sentences = new Queue<string>();    
     }
-    public void StartDialogue(Dialogue dialogue, GameObject NPC,bool noCharArt){
+    public void StartDialogue(Dialogue dialogue, GameObject NPC,bool noCharArt, string dialogueName = null){
         mouseInteraction.EnableDialogue();
         animator.SetBool("IsDialogueOpen", true);
 
-        nameText.text = NPC.GetComponent<InteractMenu>().GetText();
+        if(dialogueName != null){
+            nameText.text = dialogueName;
+        }
+        else{
+            nameText.text = NPC.GetComponent<InteractMenu>().GetText();
+        }
         if(noCharArt == false){
             CharacterArt.sprite =  NPC.GetComponent<InteractMenu>().GetCharArt();
         }
