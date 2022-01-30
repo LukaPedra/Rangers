@@ -50,19 +50,19 @@ public class TimeManager : MonoBehaviour
 	public void defaultTimeScale() => timeScale = stdTimeScale;
 
 	public void Sleep() {
-        if (IngameTime<32400f){
-            SetTime(8,58);
-        } else if ((32400f<=IngameTime)&&(IngameTime<39600f)) {
-            SetTime(10,58);
-        } else if ((39600f<=IngameTime)&&(IngameTime<46800f)) {
-            SetTime(12,58);
-        } else if((46800f<=IngameTime)&&(IngameTime<54000f)) {
-            SetTime(14,58);
-        } else if((54000f<=IngameTime)&&(IngameTime<61200f)) {
-            SetTime(16,58);
-        }
+		if (IngameTime<32400f) {
+			SetTime(8,58);
+		} else if ((32400f<=IngameTime)&&(IngameTime<39600f)) {
+			SetTime(10,58);
+		} else if ((39600f<=IngameTime)&&(IngameTime<46800f)) {
+			SetTime(12,58);
+		} else if((46800f<=IngameTime)&&(IngameTime<54000f)) {
+			SetTime(14,58);
+		} else if((54000f<=IngameTime)&&(IngameTime<61200f)) {
+			SetTime(16,58);
+		}
 
-    }
+	}
 
 	public void SetTime(int hour, int min) {
 		ingameTime = hour * 3600.0 + min * 60.0;
