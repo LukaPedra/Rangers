@@ -11,18 +11,22 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     public Image CharacterArt;
     public Animator animator;
+    public Sprite noCharacterArt;
     private Queue<string> sentences;
     void Start() {
         sentences = new Queue<string>();    
     }
-    public void StartDialogue(Dialogue dialogue, GameObject NPC){
+    public void StartDialogue(Dialogue dialogue, GameObject NPC,bool noCharArt){
         mouseInteraction.EnableDialogue();
         animator.SetBool("IsDialogueOpen", true);
 
         nameText.text = NPC.GetComponent<InteractMenu>().GetText();
-
-        CharacterArt.sprite =  NPC.GetComponent<InteractMenu>().GetCharArt();
-
+        if(noCharArt == false){
+            CharacterArt.sprite =  NPC.GetComponent<InteractMenu>().GetCharArt();
+        }
+        else{
+            CharacterArt.sprite = noCharacterArt;
+        }
         sentences.Clear();
 
         foreach(string sentenc in dialogue.frases){
