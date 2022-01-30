@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cadbc43298bc53d8891ec3df96dce23, type: 3}
   m_Name: "Fund\xE3o"
   m_EditorClassIdentifier: 
-  pid: 
-  pname: 
-  age: 0
-  description: 
+  pid: "Fund\xE3o"
+  pname: Os crias
+  age: 15
+  description: "Dupla de amigos que se apelidaram de \u201COs Crias\u201D. Se chamam
+    disso h\xE1 tanto tempo que nem sei quais s\xE3o seus nomes de verdade. N\xE3o
+    d\xE1 pra saber quem \xE9 mais animal."
   picture: {fileID: 0}

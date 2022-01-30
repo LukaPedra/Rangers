@@ -53,15 +53,57 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.data[0].name
       value: Default
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].name
+      value: Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.data[0].frases.Array.size
-      value: 1
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[0]
+      value: "Ah, \xE9 voc\xEA..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[1]
+      value: "A t\xF4 meio ocupado jogando agora, mais tarde a gente conversa!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[2]
+      value: "(Os dedos dele n\xE3o pararam de se mover em nenhum momento.)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[3]
+      value: "(Os dedos dele n\xE3o pararam de se mover em nenhum momento.)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.data[0]
+      value: "Hm, qu\xEA?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.data[1]
+      value: " N\xE3o to sabendo de muita coisa, t\xF4 meio concentrado aqui, n\xE3o
+        reparou n\xE3o?!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.data[2]
+      value: "Mas at\xE9 que tenho ouvido que a galera l\xE1 do fundo tem ficado
+        muito interessada em cabelo, melhor tomar cuidado.."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.data[3]
+      value: "(Os dedos dele n\xE3o pararam de se mover em nenhum momento.)"
       objectReference: {fileID: 0}
     - target: {fileID: 5911734202619694970, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_LocalScale.x

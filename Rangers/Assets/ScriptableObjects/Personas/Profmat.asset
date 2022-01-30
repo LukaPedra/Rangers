@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cadbc43298bc53d8891ec3df96dce23, type: 3}
   m_Name: Profmat
   m_EditorClassIdentifier: 
-  pid: 
-  pname: 
-  age: 0
-  description: 
+  pid: Profmat
+  pname: Mirian
+  age: 57
+  description: "\xC9 um pouco grossa, mas pelo menos d\xE1 aula direito. Ela deve
+    ter vontade de bater em algu\xE9m com essa r\xE9gua\u2026"
   picture: {fileID: 0}

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cadbc43298bc53d8891ec3df96dce23, type: 3}
   m_Name: Nerdola
   m_EditorClassIdentifier: 
-  pid: 
-  pname: 
-  age: 0
-  description: 
+  pid: Nerdola
+  pname: Felipe
+  age: 14
+  description: "Sempre com roupa de anime, passa a aula lendo mang\xE1s suspeitos.
+    Fala \u201C2D>3D\u201D n\xE3o ironicamente."
   picture: {fileID: 0}

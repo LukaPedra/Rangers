@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cadbc43298bc53d8891ec3df96dce23, type: 3}
   m_Name: Revoltada
   m_EditorClassIdentifier: 
-  pid: 
-  pname: 
-  age: 0
-  description: 
+  pid: Revoltada
+  pname: Philomena
+  age: 15
+  description: "Julga os colegas de classe, escuta rock emo 24h por dia e s\xF3 usa
+    roupas pretas."
   picture: {fileID: 0}

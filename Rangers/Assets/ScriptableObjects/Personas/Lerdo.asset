@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Lerdo
   m_EditorClassIdentifier: 
   pid: Lerdo
-  pname: 
-  age: 0
-  description: 
+  pname: Leo
+  age: 16
+  description: "Est\xE1 dormindo a maior parte do tempo e pintou olhos falsos nas
+    p\xE1lpebras para dormir nas aulas dos professores mais r\xEDgidos."
   picture: {fileID: 0}
