@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2314716466179489992, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_Name
-      value: oscrias_pequenos
+      value: oscrias_pequenos Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: CharArt
@@ -30,6 +30,156 @@ PrefabInstance:
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: DialogueManager
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[1].name
+      value: Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[0].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[1].name
+      value: Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: ObserveDialogue.frases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: ObserveDialogue.frases.Array.data[0]
+      value: "Esses dois est\xE3o sempre juntos.. s\xE3o como carne e unha, p\xE3o
+        e manteiga, clara e gema, queijo e goiabada.. enfim.. Bateu uma fome.."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: ObserveDialogue.frases.Array.data[1]
+      value: Bateu uma fome..
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].frases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].frases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[1].frases.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].frases.Array.data[0]
+      value: "Voc\xEA: \"Ouvi falar que voc\xEA tem coisa pra contar..\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Notes.Array.data[0].frases.Array.data[1]
+      value: "Os crias: \"Men\xF3, meteu essa?! No p\xE9 ou na m\xE3o? X9 n\xE3o
+        tem vez n\xE3o..\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].frases.Array.data[0]
+      value: "O que? Eles est\xE3o dormindo em cima da mochila?!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[0].frases.Array.data[1]
+      value: "(Voc\xEA n\xE3o consegue mexer nessa mochila por hora, tente mais tarde.)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[1].frases.Array.data[0]
+      value: "O que \xE9 isso? Parece um panfleto sobre..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[1].frases.Array.data[1]
+      value: "calv\xEDcie na adolesc\xEAncia e processo cir\xFArgico na Turquia?!?! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[1].frases.Array.data[2]
+      value: "CALMA, isso \xE9 um Minoxidil e \xE9 do professor Cadu?!?!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: Snoops.Array.data[1].frases.Array.data[3]
+      value: "(Voc\xEA achou um panfleto de tratamento de calv\xEDcie e um frasco
+        de Minoxidil com o nome do professor Cadu.)\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[0].frases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[1].frases.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[0]
+      value: "Ih, ah l\xE1! Qual foi, men\xF3? Lan\xE7a a vis\xE3o nessa porra!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[1]
+      value: "(Os dois est\xE3o muito perdidos no pr\xF3prio mundo pra te darem aten\xE7\xE3o.)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.data[0]
+      value: Plebe
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[0].frases.Array.data[0]
+      value: "N\xE3o acredito.. eles colocaram um cadeado de bicicleta pra fechar
+        o arm\xE1rio?!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[0].frases.Array.data[1]
+      value: "(Est\xE1 trancado, tente mais tarde.)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[1].frases.Array.data[0]
+      value: "(Voc\xEA abre a porta e cai um bilhete)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[1].frases.Array.data[1]
+      value: "O que \xE9 isso? \u201CVamos tentar ser mais discretas, n\xE3o quero
+        que ningu\xE9m suspeite de nada, por hora \u2620\".. \n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: SnoopsLocker.Array.data[1].frases.Array.data[2]
+      value: "(Voc\xEA achou um bilhete roubado pelos Crias. Claramente n\xE3o foram
+        eles que escreveram.)\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5911734202619694970, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_LocalScale.x
