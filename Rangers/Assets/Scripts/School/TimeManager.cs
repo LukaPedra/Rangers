@@ -4,6 +4,16 @@ public class TimeManager : MonoBehaviour
 {
 	[SerializeField] private float timeScale = 20.0f; /* how many ig secs mean irl secs */
 
+	private static TimeManager instance = null;
+	public static TimeManager Instace {
+		get {
+			if (instance == null)
+				instance = new TimeManager();
+
+			return instance;
+		}
+	}
+
 	private float ingameTime = 0.0f;
 	private float deltaTime = 0.0f;
 	private int lastHour = 0;
@@ -15,6 +25,8 @@ public class TimeManager : MonoBehaviour
 
 	public delegate void GameHour(int hour);
 	public event GameHour OnGameHourEllapsed;
+
+	private TimeManager() { }
 
 	private void Update() {
 		if (GameStateManager.Instance.CurrentGameState != GameState.Class)
