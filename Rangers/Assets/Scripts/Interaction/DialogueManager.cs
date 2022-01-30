@@ -13,11 +13,13 @@ public class DialogueManager : MonoBehaviour
     public Animator animator;
     public Sprite noCharacterArt;
     private Queue<string> sentences;
+    [SerializeField] private AudioManager audioManager;
     void Start() {
         sentences = new Queue<string>();    
     }
     public void StartDialogue(Dialogue dialogue, GameObject NPC,bool noCharArt, string dialogueName = null){
         mouseInteraction.EnableDialogue();
+        audioManager.Play("Dialogue");
         animator.SetBool("IsDialogueOpen", true);
 
         if(dialogueName != null){

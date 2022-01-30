@@ -1005,7 +1005,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30f365e3d645fe231a908bea4fb367c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeScale: 20
 --- !u!114 &987644217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2310,6 +2309,7 @@ MonoBehaviour:
   CharacterArt: {fileID: 175936431}
   animator: {fileID: 1181146384}
   noCharacterArt: {fileID: 0}
+  audioManager: {fileID: 1818726830}
 --- !u!4 &1623598828
 Transform:
   m_ObjectHideFlags: 0
@@ -2793,6 +2793,62 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 265ef7bbeb94d444c9eb4aa7e3c0cf3b, type: 3}
+--- !u!1 &1818726829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1818726831}
+  - component: {fileID: 1818726830}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1818726830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818726829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f59d2efdf3b234aac276bbe8a0a7f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainMusic
+    clip: {fileID: 8300000, guid: 2cdc744005684944589fdf76399bfb0e, type: 3}
+    volume: 0.166
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Dialogue
+    clip: {fileID: 8300000, guid: d037eb5208af75747b44c3086eb88eb6, type: 3}
+    volume: 0.126
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+--- !u!4 &1818726831
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818726829}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.19463271, y: 2.0413191, z: -44.90061}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1862566079
 GameObject:
   m_ObjectHideFlags: 0
@@ -3124,17 +3180,29 @@ PrefabInstance:
       propertyPath: DialogueManager
       value: 
       objectReference: {fileID: 1623598827}
+    - target: {fileID: 6591583207290177826, guid: f1f3dda0e52ae534398311f1506a2ecc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 6591583207290177826, guid: f1f3dda0e52ae534398311f1506a2ecc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765255798849772898, guid: f1f3dda0e52ae534398311f1506a2ecc, type: 3}
+      propertyPath: m_SortingOrder
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 7618199377916043666, guid: f1f3dda0e52ae534398311f1506a2ecc, type: 3}
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7618199377916043666, guid: f1f3dda0e52ae534398311f1506a2ecc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.571578
+      value: 6.88
       objectReference: {fileID: 0}
     - target: {fileID: 7618199377916043666, guid: f1f3dda0e52ae534398311f1506a2ecc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.864678
+      value: -2.19
       objectReference: {fileID: 0}
     - target: {fileID: 7618199377916043666, guid: f1f3dda0e52ae534398311f1506a2ecc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3395,6 +3463,10 @@ PrefabInstance:
       propertyPath: timeManager
       value: 
       objectReference: {fileID: 987644216}
+    - target: {fileID: 4636375109623416621, guid: ebed1fc21bc155f4a8ad89c04ea28140, type: 3}
+      propertyPath: m_text
+      value: ???
+      objectReference: {fileID: 0}
     - target: {fileID: 5710349709757702452, guid: ebed1fc21bc155f4a8ad89c04ea28140, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -3438,6 +3510,14 @@ PrefabInstance:
     - target: {fileID: 5710349709757702452, guid: ebed1fc21bc155f4a8ad89c04ea28140, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808560956433946292, guid: ebed1fc21bc155f4a8ad89c04ea28140, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -52.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106348022752908686, guid: ebed1fc21bc155f4a8ad89c04ea28140, type: 3}
+      propertyPath: m_text
+      value: Dormir
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebed1fc21bc155f4a8ad89c04ea28140, type: 3}
@@ -3582,6 +3662,18 @@ PrefabInstance:
       propertyPath: DialogueManager
       value: 
       objectReference: {fileID: 1623598827}
+    - target: {fileID: 6679050235748134165, guid: 6e7f1f41c7d550543a3022d5f53c8bc0, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6679050235748134165, guid: 6e7f1f41c7d550543a3022d5f53c8bc0, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6679050235748134165, guid: 6e7f1f41c7d550543a3022d5f53c8bc0, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.data[0]
+      value: Plebe
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e7f1f41c7d550543a3022d5f53c8bc0, type: 3}
 --- !u!4 &5234498024881453758 stripped
@@ -3754,14 +3846,6 @@ PrefabInstance:
       propertyPath: DialogueManager
       value: 
       objectReference: {fileID: 1623598827}
-    - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
-      propertyPath: ObserveDialogue.frases.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
-      propertyPath: ObserveDialogue.frases.Array.data[0]
-      value: (qqr coisa)
-      objectReference: {fileID: 0}
     - target: {fileID: 3657682305532247142, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
       propertyPath: m_Name
       value: francisca_pequena
@@ -3885,48 +3969,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
---- !u!1 &6293999184371229198 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8594909562849136951, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
-  m_PrefabInstance: {fileID: 6293999184371229197}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6293999184371229199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6293999184371229198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b676a4b780618f4785573240635c483, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeManager: {fileID: 0}
-  NomeNPC: Mirian
-  CharArt: {fileID: 21300000, guid: 8f0f8e4deb6a72f4fb5984452a636170, type: 3}
-  dialogues:
-  - name: Default
-    frases:
-    - "Bom dia! Como est\xE1 o dia de voc\xEAs?"
-    - "Preparados para terem uma boa aula de matem\xE1tica?!"
-    - "(Os olhos da professora brilham de emo\xE7\xE3o.)"
-  - name: Variant
-    frases:
-    - "Ent\xE3o quer dizer que a Barbara te deu aval para sair por a\xED conversando
-      no meio da aula?"
-    - "Depois voc\xEA ter\xE1 que fazer monitoria como outros e n\xE3o sabe porqu\xEA."
-    - Agora foque na aula, por favor!
-  Notes: []
-  Snoops: []
-  SnoopsLocker: []
-  ObserveDialogue:
-    name: 
-    frases: []
-  DialogueManager: {fileID: 0}
-  animator: {fileID: 247391322876984161, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
-  gameManager: {fileID: 0}
-  cameraMenu: {fileID: 0}
 --- !u!1001 &8204328275630626112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3940,7 +3982,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1230140268938268809, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.309578
+      value: 4.66
       objectReference: {fileID: 0}
     - target: {fileID: 1230140268938268809, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4003,6 +4045,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 296640690}
     m_Modifications:
+    - target: {fileID: 873988264, guid: decb3c18aefa16e4783a7391f95de06a, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 987644219}
+    - target: {fileID: 873988264, guid: decb3c18aefa16e4783a7391f95de06a, type: 3}
+      propertyPath: DialogueManager
+      value: 
+      objectReference: {fileID: 1623598827}
     - target: {fileID: 270022106087736427, guid: decb3c18aefa16e4783a7391f95de06a, type: 3}
       propertyPath: m_Name
       value: prof_hist_pequeno
