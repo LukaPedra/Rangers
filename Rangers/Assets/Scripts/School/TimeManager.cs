@@ -44,5 +44,9 @@ public class TimeManager : MonoBehaviour
 		}
 	}
 
+	public void SetTime(int hour, int min) => ingameTime = hour * 3600.0f + min * 60.0f;
+	public void SetHour(int hour) => ingameTime = hour * 3600.0f;
+	public void SetMin(int min) => ingameTime = IngameHour + min * 60.0f;
+
 }
 
