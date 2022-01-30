@@ -9,8 +9,7 @@ public class ContactsAppController : MonoBehaviour
 	private Hashtable contactsTable = new Hashtable();
 
 	public void AddContact(PersonSO person) {
-		GameObject contact = Instantiate(contactPrefab, new Vector3(0, 0, 0), Quaternion.identity);
-		contact.transform.parent = contactsPanel.transform;
+		GameObject contact = Instantiate(contactPrefab, contactsPanel.transform);
 		contact.GetComponent<ContactBehaviour>().ContactID = person.pid;
 		contactsTable.Add(person.pid, contact);
 	}
