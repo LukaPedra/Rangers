@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cadbc43298bc53d8891ec3df96dce23, type: 3}
   m_Name: Profbio
   m_EditorClassIdentifier: 
-  pid: Profbio
+  pid: profbio
   pname: "B\xE1rbara"
   age: 50
   description: "A professora mais doce que j\xE1 me deu aula, me pergunto de onde

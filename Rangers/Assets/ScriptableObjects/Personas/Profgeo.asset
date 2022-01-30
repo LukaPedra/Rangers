@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cadbc43298bc53d8891ec3df96dce23, type: 3}
   m_Name: Profgeo
   m_EditorClassIdentifier: 
-  pid: Profgeo
+  pid: profgeo
   pname: Cadu
   age: 45
   description: "A voz dele me faz querer dormir, mas o brilho da careca n\xE3o me
