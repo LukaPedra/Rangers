@@ -42,8 +42,7 @@ public class MouseInteraction : MonoBehaviour
             NPCCopy = NPC;
             NPC.GetComponent<InteractMenu>().OpenMenu();
             NPC = null;
-        }
-        else{
+        } else if (NPCCopy != null) {
             NPCCopy.GetComponent<InteractMenu>().CloseMenu();
             NPCCopy = null;
         }
