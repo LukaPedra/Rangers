@@ -44,9 +44,32 @@ public class TimeManager : MonoBehaviour
 		}
 	}
 
-	public void SetTime(int hour, int min) => ingameTime = hour * 3600.0f + min * 60.0f;
-	public void SetHour(int hour) => ingameTime = hour * 3600.0f;
-	public void SetMin(int min) => ingameTime = IngameHour + min * 60.0f;
+	public void SetTime(int hour, int min) {
+		ingameTime = hour * 3600.0f + min * 60.0f;
+		int currentHour = IngameHour;
+		if (currentHour != lastHour) {
+			OnGameHourEllapsed?.Invoke(currentHour);
+			lastHour = currentHour;
+		}
+	}
+
+	public void SetHour(int hour) {
+		ingameTime = hour * 3600.0f;
+		int currentHour = IngameHour;
+		if (currentHour != lastHour) {
+			OnGameHourEllapsed?.Invoke(currentHour);
+			lastHour = currentHour;
+		}
+	}
+
+	public void SetMin(int min) {
+		int currentHour = IngameHour;
+		ingameTime = currentHour + min * 60.0f;
+		if (currentHour != lastHour) {
+			OnGameHourEllapsed?.Invoke(currentHour);
+			lastHour = currentHour;
+		}
+	}
 
 }
 
