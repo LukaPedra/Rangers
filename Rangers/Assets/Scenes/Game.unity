@@ -1783,7 +1783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8167f53726027754fa934c48652fd05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 987644219}
 --- !u!4 &1656414065
 Transform:
   m_ObjectHideFlags: 0
@@ -1971,6 +1971,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4656512671119822108, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850266518880726497, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2749,6 +2753,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 987644219}
+    - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3657682305532247142, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
       propertyPath: m_Name
       value: francisca_pequena
