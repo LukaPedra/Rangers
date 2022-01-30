@@ -7,15 +7,19 @@ public class InteractMenu : MonoBehaviour
     private CursorControls controls;
     [SerializeField] private Animator animator;
     private bool isMenuOpen;
+    public GameManager gameManager;
     private void Awake(){
+        //gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         controls = new CursorControls();
     }
     public void OpenMenu(){
-        isMenuOpen = true;
-        animator.SetBool("MenuOn",isMenuOpen);
+        if(gameManager.GetMenuStatus() == false){
+            gameManager.SetMenuBool(true);
+            animator.SetBool("MenuOn",gameManager.GetMenuStatus());
+        }
     }
     public void CloseMenu(){
-        isMenuOpen = false;
-        animator.SetBool("MenuOn",isMenuOpen);
+        gameManager.CloseMenu();
+        animator.SetBool("MenuOn",gameManager.GetMenuStatus());
     }
 }

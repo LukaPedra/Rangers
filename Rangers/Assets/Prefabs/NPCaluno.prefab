@@ -74,6 +74,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 6068090263967099550}
+  gameManager: {fileID: 0}
 --- !u!95 &6122167424448360009
 Animator:
   serializedVersion: 3
@@ -253,6 +254,22 @@ PrefabInstance:
     - target: {fileID: 6968062535189794929, guid: 4d6eb9c9c723e0c409313bb55ff25969, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7527309987673867608, guid: 4d6eb9c9c723e0c409313bb55ff25969, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3665145644719800272}
+    - target: {fileID: 7527309987673867608, guid: 4d6eb9c9c723e0c409313bb55ff25969, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CloseMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 7527309987673867608, guid: 4d6eb9c9c723e0c409313bb55ff25969, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InteractMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7527309987673867608, guid: 4d6eb9c9c723e0c409313bb55ff25969, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d6eb9c9c723e0c409313bb55ff25969, type: 3}

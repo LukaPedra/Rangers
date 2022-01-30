@@ -913,6 +913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellphonePanel: {fileID: 547594636}
+  InteractionMenu: {fileID: 0}
 --- !u!114 &987644220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1511,6 +1512,10 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 987644219}
     - target: {fileID: 5911734202619694970, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.24217333
@@ -1645,6 +1650,10 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 6.05
       objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 987644219}
     - target: {fileID: 5911734202619694970, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.24217333
@@ -1876,6 +1885,10 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 8.95
       objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 987644219}
     - target: {fileID: 5911734202619694970, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.24217333
@@ -2140,6 +2153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8167f53726027754fa934c48652fd05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!4 &1656414065
 Transform:
   m_ObjectHideFlags: 0
@@ -3045,6 +3059,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: francisca_pequena
       objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 987644219}
     - target: {fileID: 5716939710917388738, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_Camera
       value: 
