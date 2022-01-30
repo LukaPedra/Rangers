@@ -27,6 +27,10 @@ MonoBehaviour:
     m_Key: SnoopAroundKey
     m_Metadata:
       m_Items: []
+  - m_Id: 214573280485376
+    m_Key: NoteKey
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

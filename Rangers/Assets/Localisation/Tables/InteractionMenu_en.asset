@@ -30,5 +30,9 @@ MonoBehaviour:
     m_Localized: Snoop about bag
     m_Metadata:
       m_Items: []
+  - m_Id: 214573280485376
+    m_Localized: Pass note
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

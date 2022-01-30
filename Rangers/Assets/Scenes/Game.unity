@@ -2563,14 +2563,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 296640690}
     m_Modifications:
     - target: {fileID: 2832487640601420739, guid: e43370809c9c04a438bf2551f64a3952, type: 3}
-      propertyPath: CharArt
-      value: 
-      objectReference: {fileID: 21300000, guid: f4e179836f4918e42ad017359b5527d4, type: 3}
-    - target: {fileID: 2832487640601420739, guid: e43370809c9c04a438bf2551f64a3952, type: 3}
-      propertyPath: NomeNPC
-      value: Felipe
-      objectReference: {fileID: 0}
-    - target: {fileID: 2832487640601420739, guid: e43370809c9c04a438bf2551f64a3952, type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 987644219}
@@ -2578,10 +2570,6 @@ PrefabInstance:
       propertyPath: DialogueManager
       value: 
       objectReference: {fileID: 1623598827}
-    - target: {fileID: 2832487640601420739, guid: e43370809c9c04a438bf2551f64a3952, type: 3}
-      propertyPath: dialogues.Array.data[0].frases.Array.data[0]
-      value: Plebe
-      objectReference: {fileID: 0}
     - target: {fileID: 3858938744590359771, guid: e43370809c9c04a438bf2551f64a3952, type: 3}
       propertyPath: m_Name
       value: felipe_pequeno2
@@ -2911,24 +2899,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1623598827}
     - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
-      propertyPath: dialogues.Array.size
+      propertyPath: ObserveDialogue.frases.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
-      propertyPath: dialogues.Array.data[0].name
-      value: Default
-      objectReference: {fileID: 0}
-    - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
-      propertyPath: dialogues.Array.data[0].frases.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
-      propertyPath: dialogues.Array.data[0].frases.Array.data[0]
-      value: Plebe
-      objectReference: {fileID: 0}
-    - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
-      propertyPath: dialogues.Array.data[0].frases.Array.data[1]
-      value: Desista do seu sonho e morra eu cuido do macaco
+      propertyPath: ObserveDialogue.frases.Array.data[0]
+      value: (qqr coisa)
       objectReference: {fileID: 0}
     - target: {fileID: 3657682305532247142, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
       propertyPath: m_Name
@@ -3043,6 +3019,34 @@ PrefabInstance:
       propertyPath: DialogueManager
       value: 
       objectReference: {fileID: 1623598827}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: Notes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[0].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: ObserveDialogue.frases.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[0]
+      value: "H\xE3?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[1]
+      value: "Ai, me poupe, n\xE3o tenho tempo pra falar com voc\xEA, plebe!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[2]
+      value: (Ela se vira para mexer em sua bela, e nada cara, bolsa da Zucci..)
+      objectReference: {fileID: 0}
     - target: {fileID: 8594909562849136951, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
       propertyPath: m_Name
       value: mirian_pequena
@@ -3101,14 +3105,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4829714307731998867, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
-      propertyPath: CharArt
-      value: 
-      objectReference: {fileID: 21300000, guid: 19095416b48019b4a95e215f57a9f8c2, type: 3}
-    - target: {fileID: 4829714307731998867, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
-      propertyPath: NomeNPC
-      value: Philomena
-      objectReference: {fileID: 0}
-    - target: {fileID: 4829714307731998867, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 987644219}
@@ -3116,18 +3112,6 @@ PrefabInstance:
       propertyPath: DialogueManager
       value: 
       objectReference: {fileID: 1623598827}
-    - target: {fileID: 4829714307731998867, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
-      propertyPath: dialogues.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4829714307731998867, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
-      propertyPath: dialogues.Array.data[0].frases.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4829714307731998867, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
-      propertyPath: dialogues.Array.data[0].frases.Array.data[0]
-      value: Plebe
-      objectReference: {fileID: 0}
     - target: {fileID: 5891877393421531019, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
       propertyPath: m_Name
       value: philomena_pequena
