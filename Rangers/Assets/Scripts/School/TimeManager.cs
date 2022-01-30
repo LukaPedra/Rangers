@@ -2,19 +2,11 @@ using UnityEngine;
 
 public class TimeManager : MonoBehaviour
 {
-	[SerializeField] private float timeScale = 20.0f; /* how many ig secs mean irl secs */
+	[SerializeField] private const float timeScale = 20.0f; /* how many ig secs mean irl secs */
 
-	private static TimeManager instance = null;
-	public static TimeManager Instace {
-		get {
-			if (instance == null)
-				instance = new TimeManager();
+	public static TimeManager Instance { get; private set; }
 
-			return instance;
-		}
-	}
-
-	private float ingameTime = 0.0f;
+	private float ingameTime = 60.0f * 60.0f * SchoolClasses.SchoolStartTime;
 	private float deltaTime = 0.0f;
 	private int lastHour = 0;
 
@@ -27,6 +19,14 @@ public class TimeManager : MonoBehaviour
 	public event GameHour OnGameHourEllapsed;
 
 	private TimeManager() { }
+
+	private void Awake() {
+		if (Instance != null && Instance != this) {
+			Destroy(this);
+			throw new System.Exception("Singleton already exists");
+		}
+		Instance = this;
+	}
 
 	private void Update() {
 		if (GameStateManager.Instance.CurrentGameState != GameState.Class)

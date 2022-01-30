@@ -4,7 +4,7 @@
 
 public class GameStateManager
 {
-	private static GameStateManager instance = null;
+	private static GameStateManager instance;
 	public static GameStateManager Instance {
 		get {
 			if (instance == null)
