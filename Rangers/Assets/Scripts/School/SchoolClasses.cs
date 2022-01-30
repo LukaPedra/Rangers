@@ -42,7 +42,7 @@ public class SchoolClasses
 	public static SchoolClass GetCurrentClass() => GetCurrentClass(SchoolStartTime);
 
 	public static SchoolClass GetCurrentClass(int hour) {
-		if (hour >= SchoolStartTime && hour < 17)
+		if (hour >= SchoolStartTime && hour < SchoolEndTime)
 			return SchoolSchedule[hour - SchoolStartTime];
 		else
 			return SchoolClass.Err;

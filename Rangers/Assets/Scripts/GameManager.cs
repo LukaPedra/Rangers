@@ -13,6 +13,9 @@ public class GameManager : MonoBehaviour
 	}
 
 	public void OpenCellphone() {
+		if (!SchoolClasses.DoesAllowPhone(SchoolClassManager.Instance.CurrentClass))
+			return;
+
 		isMenuOpen = true;//Somente para desabilitar o menu de abrir
 		GameStateManager.Instance.SetState(GameState.Phone);
 		cellphonePanel.SetActive(true);
