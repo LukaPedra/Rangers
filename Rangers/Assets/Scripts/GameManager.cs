@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 	private void Start() {
 		cellphonePanel.SetActive(false);
 		isMenuOpen = false;
+		GameStateManager.Instance.SetState(GameState.Class);
 	}
 
 	public void OpenCellphone() {
