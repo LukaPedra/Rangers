@@ -31,7 +31,7 @@ public class InteractMenu : MonoBehaviour
         SnoopLocker = SnoopsLocker[0];
     }
     public void OpenMenu(){
-        if(gameManager.OpenMenu() == false){
+        if((gameManager.getCellOpen() == false)&&(gameManager.GetMenuStatus()==false)){
             gameManager.SetMenuBool(true);
             animator.SetBool("MenuOn",gameManager.GetMenuStatus());
         }

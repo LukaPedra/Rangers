@@ -23,7 +23,9 @@ public class GameManager : MonoBehaviour
 		GameStateManager.Instance.SetState(GameState.Phone);
 		cellphonePanel.SetActive(isCellOpen);
 	}
-
+	public bool getCellOpen(){
+		return isCellOpen;
+	}
 	public void CloseCellphone() {
 		isCellOpen = false;
 		isMenuOpen = false; //Somente para desabilitar o menu de abrir

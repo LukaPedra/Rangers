@@ -44,10 +44,12 @@ public class MouseInteraction : MonoBehaviour
 
         RaycastHit2D hit2D = Physics2D.GetRayIntersection(ray);
         if ((hit2D.collider != null) && (hit2D.collider.tag == "NPCAluno")){
+            if(NPC!=null){
+                NPC.GetComponent<InteractMenu>().CloseMenu();
+            }
             NPC = hit2D.collider.gameObject;
             NPCCopy = NPC;
             NPC.GetComponent<InteractMenu>().OpenMenu();
-            NPC = null;
         } else if (NPCCopy != null) {
             NPCCopy.GetComponent<InteractMenu>().CloseMenu();
             NPCCopy = null;
