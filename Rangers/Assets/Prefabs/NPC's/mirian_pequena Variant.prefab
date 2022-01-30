@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2314716466179489992, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_Name
-      value: mirian_pequena
+      value: mirian_pequena Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: CharArt
@@ -26,6 +26,52 @@ PrefabInstance:
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: DialogueManager
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].name
+      value: Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[0]
+      value: "Bom dia! Como est\xE1 o dia de voc\xEAs?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[1]
+      value: "Preparados para terem uma boa aula de matem\xE1tica?!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[2]
+      value: "(Os olhos da professora brilham de emo\xE7\xE3o.)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.data[0]
+      value: "Ent\xE3o quer dizer que a Barbara te deu aval para sair por a\xED conversando
+        no meio da aula?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.data[1]
+      value: "Depois voc\xEA ter\xE1 que fazer monitoria como outros e n\xE3o sabe
+        porqu\xEA."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.data[2]
+      value: Agora foque na aula, por favor!
       objectReference: {fileID: 0}
     - target: {fileID: 5911734202619694970, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: m_LocalScale.x
