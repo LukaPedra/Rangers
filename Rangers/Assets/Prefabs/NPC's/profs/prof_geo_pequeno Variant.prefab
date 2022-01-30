@@ -75,9 +75,61 @@ PrefabInstance:
       propertyPath: DialogueManager
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[2].name
+      value: Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[2].frases.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[0]
+      value: "Ol\xE1, crian\xE7as! Preparadas para desbravar o bom e belo livro de
+        geografia atr\xE1s de conhecimento?!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.data[0]
+      value: "Mi..Minoxidil com prescri\xE7\xE3o m\xE9dica minha???"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.data[1]
+      value: "Na...N\xE3o fa\xE7o ideia do que voc\xEA esteja falando.. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[1].frases.Array.data[2]
+      value: "Nunca vi isso na minha vida, n\xE3o \xE9 como se eu estivesse precisando
+        de cabelo, t\xE1 bom?!?!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[2].frases.Array.data[0]
+      value: "Ent\xE3o quer dizer que a Barbara te deu aval para sair por a\xED conversando
+        no meio da aula?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[2].frases.Array.data[1]
+      value: "Depois voc\xEA ter\xE1 que fazer monitoria como outros e n\xE3o sabe
+        porqu\xEA."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[2].frases.Array.data[2]
+      value: Agora foque na aula, por favor!
+      objectReference: {fileID: 0}
     - target: {fileID: 8594909562849136951, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
       propertyPath: m_Name
-      value: prof_geo_pequeno
+      value: prof_geo_pequeno Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}

@@ -75,9 +75,27 @@ PrefabInstance:
       propertyPath: DialogueManager
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[0]
+      value: "Ah, tem certeza que voc\xEA prefere conversar comigo do que aprender
+        sobre Biologia?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315517475910364719, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[1]
+      value: "N\xE3o tem problema um pouquinho de conversa, n\xE3o sou t\xE3o carrasca
+        quanto o Professor Arthur ou t\xE3o arisca quanto o professor Cadu.."
+      objectReference: {fileID: 0}
     - target: {fileID: 8594909562849136951, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
       propertyPath: m_Name
-      value: prof_bio_pequeno
+      value: prof_bio_pequeno Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06bcf0af998b5f64a8f74fd5cf8ec9b5, type: 3}
