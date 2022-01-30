@@ -14,4 +14,8 @@ public class InteractMenu : MonoBehaviour
         isMenuOpen = true;
         animator.SetBool("MenuOn",isMenuOpen);
     }
+    public void CloseMenu(){
+        isMenuOpen = false;
+        animator.SetBool("MenuOn",isMenuOpen);
+    }
 }
