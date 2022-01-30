@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TimeManager : MonoBehaviour
 {
-	[SerializeField] private const float timeScale = 20.0f; /* how many ig secs mean irl secs */
+	[SerializeField] private float timeScale = 20.0f; /* how many ig secs mean irl secs */
 
 	public static TimeManager Instance { get; private set; }
 
@@ -32,9 +32,9 @@ public class TimeManager : MonoBehaviour
 		if (GameStateManager.Instance.CurrentGameState != GameState.Class)
 			return;
 
-		if ((deltaTime += Time.deltaTime) >= timeScale) {
+		if ((deltaTime += Time.deltaTime) >= 1.0f) {
 			deltaTime = 0;
-			ingameTime++;
+			ingameTime += timeScale;
 
 			int currentHour = IngameHour;
 			if (currentHour != lastHour) {
@@ -43,5 +43,6 @@ public class TimeManager : MonoBehaviour
 			}
 		}
 	}
+
 }
 
