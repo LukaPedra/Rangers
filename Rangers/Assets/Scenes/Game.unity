@@ -2235,6 +2235,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 987644219}
+    - target: {fileID: 4656512670183272694, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4656512670183272694, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4656512670183272694, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4656512671016966688, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
       propertyPath: m_Name
       value: Canvas
