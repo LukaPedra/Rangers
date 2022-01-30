@@ -74,7 +74,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NomeNPC: 
-  dialogues: []
+  CharArt: {fileID: 0}
+  dialogues:
+  - name: 
+    frases:
+    - Plebe
   DialogueManager: {fileID: 0}
   animator: {fileID: 6068090263967099550}
   gameManager: {fileID: 0}

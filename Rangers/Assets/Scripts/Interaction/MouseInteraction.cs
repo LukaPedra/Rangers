@@ -29,9 +29,7 @@ public class MouseInteraction : MonoBehaviour
     }
     private void EndedClick(){
         DetectObject();
-        Debug.Log("cima");
         if(IsDialogueActive == true){
-            Debug.Log("baixo");
 
             dialogueManager.DisplayNextSentence();
         }

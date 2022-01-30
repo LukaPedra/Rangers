@@ -33,7 +33,6 @@ public class InteractMenu : MonoBehaviour
         return NomeNPC;
     }
     public void triggerDialogue(){
-        Debug.Log("Teste1");
         DialogueManager.StartDialogue(dialogue,gameObject);
         CloseMenu();
     }

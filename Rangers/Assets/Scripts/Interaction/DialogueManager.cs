@@ -16,7 +16,6 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();    
     }
     public void StartDialogue(Dialogue dialogue, GameObject NPC){
-        Debug.Log("teste2");
         mouseInteraction.EnableDialogue();
         animator.SetBool("IsDialogueOpen", true);
 
