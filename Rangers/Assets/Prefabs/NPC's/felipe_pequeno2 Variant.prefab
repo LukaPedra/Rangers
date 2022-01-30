@@ -57,7 +57,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.data[0].name
-      value: Day 1
+      value: Default
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: dialogues.Array.data[0].frases.Array.size
@@ -142,3 +142,58 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+--- !u!1 &3858938744590359771 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2314716466179489992, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+  m_PrefabInstance: {fileID: 1554359844409744403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2832487640601420739 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
+  m_PrefabInstance: {fileID: 1554359844409744403}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3858938744590359771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b676a4b780618f4785573240635c483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4156556252264731389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3858938744590359771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2832487640601420739}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1

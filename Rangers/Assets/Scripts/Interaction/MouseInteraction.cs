@@ -8,7 +8,9 @@ public class MouseInteraction : MonoBehaviour
     private GameObject NPC;
     private GameObject NPCCopy;
     public GameManager gameManager;
+    [SerializeField] private DialogueManager dialogueManager;
     private CursorControls controls;
+    private bool IsDialogueActive;
     private void Awake(){
         controls = new CursorControls();
     }
@@ -27,6 +29,12 @@ public class MouseInteraction : MonoBehaviour
     }
     private void EndedClick(){
         DetectObject();
+        Debug.Log("cima");
+        if(IsDialogueActive == true){
+            Debug.Log("baixo");
+
+            dialogueManager.DisplayNextSentence();
+        }
     }
     private void Update() {
         Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -49,5 +57,11 @@ public class MouseInteraction : MonoBehaviour
     }
     public void buttontest(){
         Debug.Log("teste");
+    }
+    public void DisableDialogue(){
+        IsDialogueActive = false;
+    }
+    public void EnableDialogue(){
+        IsDialogueActive=true;
     }
 }

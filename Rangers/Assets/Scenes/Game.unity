@@ -175,7 +175,7 @@ Transform:
   - {fileID: 2271733470750644218}
   - {fileID: 1937929041762227632}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &64824101
 PrefabInstance:
@@ -243,6 +243,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4814895372487637549, guid: 8ee35febd8e0446468a62caac97c59a8, type: 3}
   m_PrefabInstance: {fileID: 2111150211}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &175936431 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5600057153318972789, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
+  m_PrefabInstance: {fileID: 1715568483}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &296640689
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,7 +288,7 @@ Transform:
   - {fileID: 1942754682}
   - {fileID: 982166675}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &341287965
 GameObject:
@@ -462,7 +473,7 @@ RectTransform:
   m_Children:
   - {fileID: 384867245}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -772,6 +783,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4656512669455190208, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
   m_PrefabInstance: {fileID: 1715568483}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &712780943 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2275366370349156483, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
+  m_PrefabInstance: {fileID: 1715568483}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &862493037 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8151089488222888376, guid: 265ef7bbeb94d444c9eb4aa7e3c0cf3b, type: 3}
@@ -782,6 +804,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4814895372487637549, guid: 8ee35febd8e0446468a62caac97c59a8, type: 3}
   m_PrefabInstance: {fileID: 375697784}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &943227533 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2732553973896270943, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
+  m_PrefabInstance: {fileID: 1715568483}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &982166674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1333,6 +1366,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 265ef7bbeb94d444c9eb4aa7e3c0cf3b, type: 3}
+--- !u!95 &1181146384 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1427493268599654110, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
+  m_PrefabInstance: {fileID: 1715568483}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1181415050
 GameObject:
   m_ObjectHideFlags: 0
@@ -1754,6 +1792,54 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1623598826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1623598828}
+  - component: {fileID: 1623598827}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1623598827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623598826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039217288c17614d9dcbfef11becd85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseInteraction: {fileID: 1656414064}
+  nameText: {fileID: 712780943}
+  dialogueText: {fileID: 943227533}
+  CharacterArt: {fileID: 175936431}
+  animator: {fileID: 1181146384}
+--- !u!4 &1623598828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623598826}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.41245568, y: 0.21609831, z: -347.53943}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1656414063
 GameObject:
   m_ObjectHideFlags: 0
@@ -1784,6 +1870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 987644219}
+  dialogueManager: {fileID: 1623598827}
 --- !u!4 &1656414065
 Transform:
   m_ObjectHideFlags: 0
@@ -1796,7 +1883,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1715568483
 PrefabInstance:
@@ -1805,6 +1892,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2275366370349156483, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 3942645759
+      objectReference: {fileID: 0}
+    - target: {fileID: 2732553973896270943, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 3925868544
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819819548960663293, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3894548725162520252, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4656512669455190220, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
       propertyPath: gameManager
       value: 
@@ -1975,7 +2078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8850266518880726497, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e76546800d14aa067bfa49c5b8e5be3f, type: 3}
@@ -2434,9 +2537,25 @@ PrefabInstance:
     m_TransformParent: {fileID: 296640690}
     m_Modifications:
     - target: {fileID: 2832487640601420739, guid: e43370809c9c04a438bf2551f64a3952, type: 3}
+      propertyPath: CharArt
+      value: 
+      objectReference: {fileID: 21300000, guid: f4e179836f4918e42ad017359b5527d4, type: 3}
+    - target: {fileID: 2832487640601420739, guid: e43370809c9c04a438bf2551f64a3952, type: 3}
+      propertyPath: NomeNPC
+      value: Felipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 2832487640601420739, guid: e43370809c9c04a438bf2551f64a3952, type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 987644219}
+    - target: {fileID: 2832487640601420739, guid: e43370809c9c04a438bf2551f64a3952, type: 3}
+      propertyPath: DialogueManager
+      value: 
+      objectReference: {fileID: 1623598827}
+    - target: {fileID: 2832487640601420739, guid: e43370809c9c04a438bf2551f64a3952, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[0]
+      value: Plebe
+      objectReference: {fileID: 0}
     - target: {fileID: 3858938744590359771, guid: e43370809c9c04a438bf2551f64a3952, type: 3}
       propertyPath: m_Name
       value: felipe_pequeno2
@@ -2691,6 +2810,18 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 987644219}
+    - target: {fileID: 2102052180236712238, guid: ebed1fc21bc155f4a8ad89c04ea28140, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2102052180236712238, guid: ebed1fc21bc155f4a8ad89c04ea28140, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2102052180236712238, guid: ebed1fc21bc155f4a8ad89c04ea28140, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[0]
+      value: Plebe
+      objectReference: {fileID: 0}
     - target: {fileID: 5710349709757702452, guid: ebed1fc21bc155f4a8ad89c04ea28140, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2750,12 +2881,40 @@ PrefabInstance:
     m_TransformParent: {fileID: 296640690}
     m_Modifications:
     - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
+      propertyPath: CharArt
+      value: 
+      objectReference: {fileID: 21300000, guid: 288b80e890ff8cf42b4e65cfdccedaa5, type: 3}
+    - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
+      propertyPath: NomeNPC
+      value: Francisca
+      objectReference: {fileID: 0}
+    - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 987644219}
     - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
+      propertyPath: DialogueManager
+      value: 
+      objectReference: {fileID: 1623598827}
+    - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
       propertyPath: dialogues.Array.size
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
+      propertyPath: dialogues.Array.data[0].name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[0]
+      value: Plebe
+      objectReference: {fileID: 0}
+    - target: {fileID: 2305845733356241790, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[1]
+      value: Desista do seu sonho e morra eu cuido do macaco
       objectReference: {fileID: 0}
     - target: {fileID: 3657682305532247142, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
       propertyPath: m_Name
@@ -2863,9 +3022,33 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4829714307731998867, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
+      propertyPath: CharArt
+      value: 
+      objectReference: {fileID: 21300000, guid: 19095416b48019b4a95e215f57a9f8c2, type: 3}
+    - target: {fileID: 4829714307731998867, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
+      propertyPath: NomeNPC
+      value: Philomena
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829714307731998867, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 987644219}
+    - target: {fileID: 4829714307731998867, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
+      propertyPath: DialogueManager
+      value: 
+      objectReference: {fileID: 1623598827}
+    - target: {fileID: 4829714307731998867, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829714307731998867, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829714307731998867, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
+      propertyPath: dialogues.Array.data[0].frases.Array.data[0]
+      value: Plebe
+      objectReference: {fileID: 0}
     - target: {fileID: 5891877393421531019, guid: 30ea1adb841e8124281a83e208c9e3cf, type: 3}
       propertyPath: m_Name
       value: philomena_pequena
