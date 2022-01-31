@@ -78,11 +78,11 @@ PrefabInstance:
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: ObserveDialogue.frases.Array.data[0]
       value: "Esses dois est\xE3o sempre juntos.. s\xE3o como carne e unha, p\xE3o
-        e manteiga, clara e gema, queijo e goiabada.. enfim.. Bateu uma fome.."
+        e manteiga, clara e gema, queijo e goiabada.. enfim.. "
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: ObserveDialogue.frases.Array.data[1]
-      value: Bateu uma fome..
+      value: "Bateu at\xE9 uma fome.."
       objectReference: {fileID: 0}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: Notes.Array.data[0].frases.Array.size
