@@ -2271,6 +2271,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue Box
       objectReference: {fileID: 0}
+    - target: {fileID: 996450679671617689, guid: eb05c3ceec2b3ce4993043609ee14972, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536164535743733243, guid: eb05c3ceec2b3ce4993043609ee14972, type: 3}
+      propertyPath: m_fontSize
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536164535743733243, guid: eb05c3ceec2b3ce4993043609ee14972, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 72
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb05c3ceec2b3ce4993043609ee14972, type: 3}
 --- !u!4 &8404913606826305002 stripped

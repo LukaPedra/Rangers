@@ -175,7 +175,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Passar Bilhete
+  m_text: Passar bilhete
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a1a586e7a44650c49aed612a2a8a8560, type: 2}
   m_sharedMaterial: {fileID: 2109652894566604836, guid: a1a586e7a44650c49aed612a2a8a8560, type: 2}
@@ -506,7 +506,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8772335222337263267
 RectTransform:
   m_ObjectHideFlags: 0
@@ -639,7 +639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &374478908119092713
 RectTransform:
   m_ObjectHideFlags: 0
