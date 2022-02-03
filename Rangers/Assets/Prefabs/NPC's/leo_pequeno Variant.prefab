@@ -14,7 +14,7 @@ PrefabInstance:
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: CharArt
       value: 
-      objectReference: {fileID: 21300000, guid: 8f0f8e4deb6a72f4fb5984452a636170, type: 3}
+      objectReference: {fileID: 21300000, guid: f08756c408626ea4684d0d02766d6711, type: 3}
     - target: {fileID: 3665145644719800272, guid: 8cef6d6a8ee945040856c2f1142da4dd, type: 3}
       propertyPath: NomeNPC
       value: Leo
