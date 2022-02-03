@@ -2308,7 +2308,7 @@ MonoBehaviour:
   dialogueText: {fileID: 943227533}
   CharacterArt: {fileID: 175936431}
   animator: {fileID: 1181146384}
-  noCharacterArt: {fileID: 0}
+  noCharacterArt: {fileID: 21300000, guid: 929c794266780ba42a717c5607108ac8, type: 3}
   audioManager: {fileID: 1818726830}
 --- !u!4 &1623598828
 Transform:
