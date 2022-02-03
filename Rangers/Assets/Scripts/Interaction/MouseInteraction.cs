@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class MouseInteraction : MonoBehaviour
 {
-    private GameObject NPC;
+    [SerializeField] private GameObject NPC;
     private GameObject NPCCopy;
     public GameManager gameManager;
     [SerializeField] private DialogueManager dialogueManager;

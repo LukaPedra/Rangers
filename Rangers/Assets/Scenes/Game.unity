@@ -3313,6 +3313,7 @@ MonoBehaviour:
   CharacterArt: {fileID: 175936431}
   animator: {fileID: 1181146384}
   noCharacterArt: {fileID: 21300000, guid: 929c794266780ba42a717c5607108ac8, type: 3}
+  gameManager: {fileID: 0}
   audioManager: {fileID: 1818726830}
 --- !u!4 &1623598828
 Transform:
@@ -3357,6 +3358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8167f53726027754fa934c48652fd05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NPC: {fileID: 0}
   gameManager: {fileID: 987644219}
   dialogueManager: {fileID: 1623598827}
 --- !u!4 &1656414065
@@ -5455,6 +5457,10 @@ PrefabInstance:
     - target: {fileID: 7906025450691259620, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 3.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910290334689618421, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.01
       objectReference: {fileID: 0}
     - target: {fileID: 8220410613349243748, guid: 0f5c8e2585bcee64788b149f3cad3dae, type: 3}
       propertyPath: m_RootOrder

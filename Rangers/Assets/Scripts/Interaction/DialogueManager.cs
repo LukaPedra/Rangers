@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
     public Image CharacterArt;
     public Animator animator;
     public Sprite noCharacterArt;
+    [SerializeField] private GameManager gameManager;
     private Queue<string> sentences;
     [SerializeField] private AudioManager audioManager;
     void Start() {
@@ -21,6 +22,7 @@ public class DialogueManager : MonoBehaviour
         mouseInteraction.EnableDialogue();
         audioManager.Play("Dialogue");
         animator.SetBool("IsDialogueOpen", true);
+        //gameManager.SetMenuBool(true);
 
         if(dialogueName != null){
             nameText.text = dialogueName;
@@ -61,5 +63,6 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue(){
         animator.SetBool("IsDialogueOpen", false);
         mouseInteraction.DisableDialogue();
+        //gameManager.SetMenuBool(false);
     }
 }
