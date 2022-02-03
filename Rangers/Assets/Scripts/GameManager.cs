@@ -49,10 +49,12 @@ public class GameManager : MonoBehaviour
         isMenuOpen = false;
 		return isMenuOpen;
     }
-
 	public void SetMenuBool(bool paramenter){
 		isMenuOpen = paramenter;
 	}
-
+	public void QuitGame(){
+		Debug.Log("app quit");
+		Application.Quit();
+	}
 }
 
