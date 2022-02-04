@@ -514,7 +514,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Notepad
+  m_text: Notas
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a1a586e7a44650c49aed612a2a8a8560, type: 2}
   m_sharedMaterial: {fileID: 2109652894566604836, guid: a1a586e7a44650c49aed612a2a8a8560, type: 2}
@@ -1116,7 +1116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4656512669997007256
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1752,7 +1752,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Contacts
+  m_text: Contatos
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a1a586e7a44650c49aed612a2a8a8560, type: 2}
   m_sharedMaterial: {fileID: 2109652894566604836, guid: a1a586e7a44650c49aed612a2a8a8560, type: 2}
